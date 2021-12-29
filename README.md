@@ -14,14 +14,14 @@ Download burgers here
 
 Developers who design frameworks have to make decisions about organizing code. One of the most popular patterns for organizing code is one known as MVC: Model-View-Controller.  Here's a basic breakdown of responsibilities:
 
-## Model	
+## Model
 - May build database tables
 - Handles logic that relies on data
 - Interfaces with the database
-## View	
+## View
 - HTML page that gets served to the client
 - May contain some logic to be handled by a template engine
-## Controller	
+## Controller
 - Receives incoming requests
 - Minimal logic
 - Calls on models to aggregate/process data
